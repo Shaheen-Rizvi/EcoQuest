@@ -144,6 +144,14 @@
         <button id="editContentButton">
             <i class='bx bx-edit-alt'></i>
         </button>
+        <script>
+            <div class="container">
+                <h1>Edit Content</h1>
+                <label for="editableContent">Content:</label>
+                <textarea id="editableContent">${JSON.stringify(indexdata, null, 2)}</textarea>
+                <button onclick="saveContent()">Save Changes</button>
+            </div>
+        </script>
 
     </main>
 
