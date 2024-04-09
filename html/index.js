@@ -92,7 +92,7 @@ window.onload = function () {
         editButton.style.display = 'block'; // Show the button for authenticated users
         editButton.addEventListener('click', openPopup);
     } else {
-        editButton.style.display = 'block'; // Hide the button for unauthenticated users
+        editButton.style.display = 'none'; // Hide the button for unauthenticated users
     }
 };
 
